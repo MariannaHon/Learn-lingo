@@ -1,0 +1,138 @@
+
+.home {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1312px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.wrapper {
+    border-radius: 30px;
+    min-width: 280px;
+    background: #f8f8f8;
+    padding: 30px 25px;
+}
+
+.picture {
+    border-radius: 30px;
+    min-width: 280px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: clamp(24px, 6vw, 48px);
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+}
+
+.special {
+    font-style: italic;
+    font-weight: 400;
+    background-color: #FBE9BA;
+    border-radius: 10px;
+}
+
+.text {
+    line-height: 1.375;
+    letter-spacing: -0.02em;
+    margin-bottom: 64px;
+    max-width: 471px;
+}
+
+.btn {
+    border: transparent;
+    border-radius: 12px;
+    padding: 16px 85px;
+    width: 267px;
+    height: 60px;
+
+    background: #f4c550;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.55556;
+}
+
+.bottom {
+    border: 1.50px dashed #f4c550;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 1312px;
+    margin: 0 auto;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.number {
+    font-weight: 500;
+    font-size: clamp(16px, 4vw, 28px);
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+    margin-right: 16px;
+}
+
+.value {
+    width: 92px;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(18, 20, 23, 0.7);
+}
+
+
+@media screen and (min-width: 780px) {
+    .box {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .wrapper {
+        border-radius: 30px;
+        max-width: 720px;
+        background: #f8f8f8;
+        padding: 98px 64px;
+    }
+
+    .picture {
+        border-radius: 30px;
+        max-width: 568px;
+        height: 530px;
+    } 
+
+
+    .title {
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 1.16667;
+        letter-spacing: -0.02em;
+    }
+
+    .list {
+        flex-direction: row;
+    }
+}
