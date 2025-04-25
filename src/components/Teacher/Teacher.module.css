@@ -1,4 +1,3 @@
-
 .container {
     display: flex;
     align-items: flex-start;
@@ -115,8 +114,9 @@
     stroke-width: 2;
 }
 
-.active {
-    stroke: #E44848;
+.heartActive {
+    stroke: #f4c550;
+    fill: #f4c550;
 }
 
 .middle {
@@ -212,4 +212,3 @@
     align-items: center;
     justify-content: center;
 }
-
