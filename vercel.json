@@ -1,6 +1,6 @@
-
 {
-    "rewrites":  [
-        {"source": "/(.*)", "destination": "/"}
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+    "env": {
+        "NPM_FLAGS": "--legacy-peer-deps"
+    }
 }
