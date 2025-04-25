@@ -5,7 +5,7 @@ import { database } from '../../firebase';
 
 export const fetchTeachers = createAsyncThunk(
     '/teachers/fetchAll',
-    async (value, { rejectWithValue }) => {
+    async (_, { rejectWithValue }) => {
         try {
             const dbRef = ref(database, 'teachers');
             const snapshot = await get(dbRef);
